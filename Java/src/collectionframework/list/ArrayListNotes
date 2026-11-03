@@ -1,0 +1,18 @@
+1.To add elements to an ArrayList, use the add() method: array_list_variable.add(value)
+2.You can also add an element at a specified position by referring to the index number: array_list_variable.add(index, value)
+3.To access an element in the ArrayList, use the get() method and refer to the index number: array_list_variable.get(index)
+4.To modify an element, use the set() method and refer to the index number: array_list_variable.set(index,new_value)
+5.To remove an element, use the remove() method and refer to the index number: array_list_variable.remove(index)
+6.To remove all the elements in the ArrayList, use the clear() method: array_list_variable.clear()
+7.To find out how many elements an ArrayList have, use the size method: array_list_variable.size()
+8.Loop through the elements of an ArrayList with a for loop, and use the size() method to specify how many times the loop should run
+9.You can also loop through an ArrayList with the for-each loop
+10.useful class in the java.util package is the Collections class, which include the sort() method for sorting lists alphabetically or numerically: Collections.sort(array_list_variable)
+11.From Java 10, you can use the var keyword to declare an ArrayList variable without writing the type twice. The compiler figures out the type from the value you assign.
+// Without var
+ArrayList<String> cars = new ArrayList<String>();
+// With var
+var cars = new ArrayList<String>();
+12.The List Interface: List<String> cars = new ArrayList<>();
+This means the variable (cars) is declared as a List (the interface), but it stores an ArrayList object (the actual list). Since ArrayList implements the List interface, this is possible.
+It works the same way, but some developers prefer this style because it gives them more flexibility to change the type later.
